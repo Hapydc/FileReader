@@ -1,0 +1,26 @@
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.exe
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.deps.json
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.runtimeconfig.json
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.runtimeconfig.dev.json
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.dll
+C:\Users\stjep\source\repos\File Reader\File Reader\bin\Debug\netcoreapp3.1\File Reader.pdb
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.csprojAssemblyReference.cache
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.AssemblyInfoInputs.cache
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.AssemblyInfo.cs
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.csproj.CoreCompileInputs.cache
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.dll
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.pdb
+C:\Users\stjep\source\repos\File Reader\File Reader\obj\Debug\netcoreapp3.1\File Reader.genruntimeconfig.cache
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.exe
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.deps.json
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.runtimeconfig.json
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.runtimeconfig.dev.json
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.dll
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\bin\Debug\netcoreapp3.1\File Reader.pdb
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.csprojAssemblyReference.cache
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.AssemblyInfoInputs.cache
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.AssemblyInfo.cs
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.csproj.CoreCompileInputs.cache
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.dll
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.pdb
+C:\Users\stjep\Documents\GitHub\FileReader\File Reader\obj\Debug\netcoreapp3.1\File Reader.genruntimeconfig.cache
