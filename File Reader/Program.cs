@@ -18,25 +18,21 @@ namespace File_Reader
         }     
 
         public static void  GetFilePath(pathClass newPath)
-        {          
-            
-            Console.WriteLine("Write file path");
-            try
-            {
+        {                      
+                Console.WriteLine("Write file path");          
                 path = Console.ReadLine();                
                 extension = Path.GetExtension(path);
-                Console.WriteLine(extension);
                 path = path.Substring(0, path.IndexOf("."));
-                Console.WriteLine(path);
+                string curFile = path + extension;
+            if (File.Exists(curFile))
+            {              
                 newPath.extension = extension;
                 newPath.path = path;
-            }          
-             catch (Exception)
+            }
+            else
             {
                 GetFilePath(newPath);
-                throw;
             }
-
         }
         private static void ReadFile(pathClass putanja)
         {           
