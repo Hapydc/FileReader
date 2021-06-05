@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 
+
 namespace File_Reader
 {
     class Program
@@ -9,21 +10,38 @@ namespace File_Reader
         public static string extension;
         static void Main(string[] args)
         {
-            GetFilePath();
-            ReadFile(path);          
+            pathClass newPath = new pathClass();
+
+            GetFilePath(newPath);
+            Console.WriteLine(newPath.path+newPath.extension);
+            ReadFile(newPath);          
         }     
 
-        private static void GetFilePath()
-        {
-            Console.WriteLine("Write file path");
-            path = Console.ReadLine();
-            Console.WriteLine(path);           
-            extension = Path.GetExtension(path);
-            Console.WriteLine(extension);
-        }
-        private static void ReadFile(string path)
-        {
+        public static void  GetFilePath(pathClass newPath)
+        {          
             
+            Console.WriteLine("Write file path");
+            try
+            {
+                path = Console.ReadLine();                
+                extension = Path.GetExtension(path);
+                Console.WriteLine(extension);
+                path = path.Substring(0, path.IndexOf("."));
+                Console.WriteLine(path);
+                newPath.extension = extension;
+                newPath.path = path;
+            }          
+             catch (Exception)
+            {
+                GetFilePath(newPath);
+                throw;
+            }
+
+        }
+        private static void ReadFile(pathClass putanja)
+        {           
+               //string[] lines = System.IO.File.ReadAllLines(putanja.path+putanja.extension);
+               //Console.WriteLine(lines);                        
         }
     }
 }
