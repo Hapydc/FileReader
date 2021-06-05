@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace File_Reader
@@ -8,7 +9,9 @@ namespace File_Reader
     {
         public string path;
         public string extension;
-        
+      
+
     }
-    
+   
+
 }
