@@ -10,60 +10,42 @@ namespace File_Reader
         public static string extension;
         static void Main(string[] args)
         {
-            pathClass newPath = new pathClass();
-            GetFilePath(newPath);
-            TransferFile(newPath);
-
+            PathClass newPath = GetFilePath();
+            CopyFile(newPath);
         }
         //test
         //    C:\Intel\Test.txt
 
-        private static void TransferFile(pathClass newPath)
+        private static void CopyFile(PathClass newPath)
         {
             string targetPath;
-            Console.WriteLine("Write target path");
-            string fileName = GetFileName(newPath.path);
-            targetPath = Console.ReadLine();
-            Console.WriteLine("Write new file name");
-            string newFile = Console.ReadLine();
-            if (File.Exists(targetPath+newFile))
-            {
-                Console.WriteLine("That name alredy exists,write another one"); 
-                newFile= Console.ReadLine();
-            }
-            else
-            {
-                string srcFile = Path.Combine(path);
-                string destFile = Path.Combine(targetPath, newFile);
-                File.Move(srcFile, destFile);
-            }
+            targetPath = @"C:\Intel\";
+            Guid guid = Guid.NewGuid();
+            newPath.guid = guid;
+            string srcFile = newPath.path;
+            string destFile = targetPath + guid;
+            File.Copy(srcFile, destFile);
         }
 
-        public static void  GetFilePath(pathClass newPath)
-        {                      
-                Console.WriteLine("Write file path");          
-                path = Console.ReadLine();                
-                extension = Path.GetExtension(path);
-                GetFileName(path);
-         
+        public static PathClass  GetFilePath()
+        {
+            PathClass newPath = new PathClass();
+            Console.WriteLine("Write file path");          
+            path = Console.ReadLine();                
+            extension = Path.GetExtension(path);        
             string curPath = path;
             if (File.Exists(curPath))
-            {                             
-                   newPath.extension = extension;
-                   newPath.path = path;                        
+            {                     
+                newPath.path = path;
+                newPath.extension = extension;
+                newPath.fileName = Path.GetFileName(path);
             }
             else
             {
                 Console.WriteLine("Write correct path");
-                path = Console.ReadLine();
+                GetFilePath();
             }
+            return newPath;
         }
-        private static string GetFileName(string path)
-        {
-            return Path.GetFileName(path );
-        }
-
-
-
     }
 }

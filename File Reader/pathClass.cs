@@ -5,13 +5,16 @@ using System.Text;
 
 namespace File_Reader
 {
-    class pathClass
+    class PathClass
     {
-        public string path;
-        public string extension;
-      
+        public string path { get; set; }
+        public string extension{ get; set; }
+        public string fileName { get; set; }
+        public Guid guid { get; set; }
+
+
 
     }
-   
+
 
 }
